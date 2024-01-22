@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<fieldset>
+    <legend>Formulaire d'inscription</legend>
+<form>
+        <p>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" placeholder="saisir votre nom">
+        </p>
+        <p>
+            <label for="prenom">Prenom</label>
+            <input type="text" id="prenom" placeholder="saisir votre prenom">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="saisir votre Email">
+        </p>
+        <p>
+            <label>Sexe</label>
+            <input type="radio" name="sexe" id="masculin"><label>masculin</label>
+            <input type="radio" name="sexe" id="feminin"><label>feminin</label>
+        </p>
+        <p>
+            <label for="photo">Photo</label>
+            <input type="file" id="photo">
+        </p>
+        <p>
+            <label>Pays</label>
+            <select>
+                <option value="France">France</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Suisse">Suisse</option>
+                <option value="Belgique">Belgique</option>
+            </select>
+        </p>
+        <p>
+            <label>Les langues préferés</label>
+            <select size="4" multiple>
+                <option value="Java">Java</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="PHP">PHP</option>
+            </select>
+        </p>
+        <p>
+            <label>Domaines d'activités</label>
+            <input type="checkbox" id="Informatique"><label for="Informatique">Informatique</label>
+            <input type="checkbox" id="Gestion"><label for="Gestion">Gestion</label>
+            <input type="checkbox" id="Pedagogie"><label for="Pedagogie">Pedagogie</label>
+        </p>
+        <p>
+        <section>
+            <input type="submit" value="Envoyer"> <input type="submit" value="Annuler">
+        </section>
+        </p>
+</fieldset>
+    <hr>
+</form>
+
+    <caption><em>Une table avec des cellules fusionnées</em></caption>
+<table border="2" style="border-collapse: collapse;width:50%;text-align: left">
+    <thead style="border-collapse: collapse">
+    <tr>
+        <th rowspan="2"><th colspan="2" style="text-align: center">Moyenne</th>
+        <th rowspan="2" style="text-align: center">Yeux <br> rouges</th>
+
+    </tr>
+    <tr>
+        <th>hauteur</th>
+        <th>poids</th>
+    </tr>
+    </thead>
+<tbody>
+<tr>
+    <th>Males</th>
+    <td>1.9</td>
+    <td>0.003</td>
+    <td>40%</td>
+</tr>
+<tr>
+    <th>Femelles</th>
+    <td>1.7</td>
+    <td>0.002</td>
+    <td>43%</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>
